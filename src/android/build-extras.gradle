@@ -1,0 +1,11 @@
+dependencies {
+    compile (name: 'wikitudesdk', ext:'aar')
+    compile 'com.google.ar:core:1.1.0'
+}
+
+repositories {
+    flatDir{
+        dirs 'libs'
+    }
+}
+
